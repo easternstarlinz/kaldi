@@ -38,7 +38,7 @@ if [ ! -f $table_first ]; then
   if [ ! -f $table_second ]; then
     echo "$0: Error! Both of the two phones-symbol tables are absent."
     echo "Please check your command"
-    exit 1;
+    #exit 1;
   else
     # The phones-symbol-table1 is absent. The model directory maybe created by old script.
     # For back compatibility, this script exits silently with status 0.
